@@ -12,6 +12,9 @@
 		84B9ABE0225847C500A89916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9ABDE225847C500A89916 /* Main.storyboard */; };
 		84B9ABE2225847C600A89916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B9ABE1225847C600A89916 /* Assets.xcassets */; };
 		84B9ABE5225847C600A89916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9ABE3225847C600A89916 /* LaunchScreen.storyboard */; };
+		84B9ABED22584E1E00A89916 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9ABEC22584E1E00A89916 /* Triangle.swift */; };
+		84B9ABEF22584E3100A89916 /* Pentagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9ABEE22584E3100A89916 /* Pentagon.swift */; };
+		84B9ABF122584E4000A89916 /* Octagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9ABF022584E4000A89916 /* Octagon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		84B9ABE1225847C600A89916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B9ABE4225847C600A89916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B9ABE6225847C600A89916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B9ABEC22584E1E00A89916 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		84B9ABEE22584E3100A89916 /* Pentagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pentagon.swift; sourceTree = "<group>"; };
+		84B9ABF022584E4000A89916 /* Octagon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Octagon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				84B9ABDA225847C500A89916 /* AppDelegate.swift */,
 				84B9ABDC225847C500A89916 /* ViewController.swift */,
+				84B9ABEC22584E1E00A89916 /* Triangle.swift */,
+				84B9ABEE22584E3100A89916 /* Pentagon.swift */,
+				84B9ABF022584E4000A89916 /* Octagon.swift */,
 				84B9ABDE225847C500A89916 /* Main.storyboard */,
 				84B9ABE1225847C600A89916 /* Assets.xcassets */,
 				84B9ABE3225847C600A89916 /* LaunchScreen.storyboard */,
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B9ABED22584E1E00A89916 /* Triangle.swift in Sources */,
+				84B9ABEF22584E3100A89916 /* Pentagon.swift in Sources */,
+				84B9ABF122584E4000A89916 /* Octagon.swift in Sources */,
 				84B9ABDD225847C500A89916 /* ViewController.swift in Sources */,
 				84B9ABDB225847C500A89916 /* AppDelegate.swift in Sources */,
 			);
